@@ -1,6 +1,7 @@
 const initialState = {
   counter: 0,
 };
+// yh state ko mange krta h 
 export const counterReducer = (state = initialState, action) => {
   if (action.type === "INCREMENT") {
     return {
